@@ -1,0 +1,59 @@
+/*!
+ * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+@media (max-width: 1199px) {
+  .service-box {
+    height: 200px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .service-box .loading {
+    margin-left: 100px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service-box .loading {
+    margin-left: 70px; } }
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .service-box .loading {
+    margin-left: 55px; } }
+
+@media (max-width: 424px) {
+  .service-box .loading {
+    margin-left: -20px; } }
+
+.skill-wrap {
+  height: 170px; }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .skill-wrap {
+      height: 410px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .skill-wrap {
+      height: 500px; } }
+  @media (max-width: 767px) {
+    .skill-wrap {
+      height: 520px; } }
+
+.container .service-box .loading .skill-unavailable {
+  background-color: #dcdee2; }
+
+#contact i {
+  color: #f05f40; }
+
+#contact p {
+  padding-top: 10px; }
+
+.footer-wrap {
+  background-color: #222; }
+
+.footer-text {
+  padding-top: 7px; }
+
+.footer-text .section-heading {
+  color: white; }
+
+.footer-icon {
+  padding-top: 5px; }
+  .footer-icon a {
+    margin-right: 15px; }

@@ -1,0 +1,20 @@
+/*!
+ * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+.loading {
+  height: 50px;
+  padding: 0px;
+  width: 200px;
+  margin-top: -65px;
+  margin-left: 30px; }
+
+.loading-animate {
+  bottom: 0px;
+  width: 10px;
+  background-color: #f05f40;
+  display: inline-block;
+  margin-top: 90px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px; }

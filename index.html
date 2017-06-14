@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tony Wang's Portfolio">
+    <meta name="author" content="Tony Wang">
+
+    <title>Tony Wang's Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Animation CSS -->
+    <link href="css/animation.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body id="page-top" ng-app="portfolio" ng-contorller="navController" ng-strict-di>
+
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top" du-smooth-scroll>Tony Wang</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="text-right" du-scrollspy="about">
+                            <a class="page-scroll" href="#about" du-smooth-scroll>About</a>
+                        </li>
+                        <li class="text-right" du-scrollspy="skill">
+                            <a class="page-scroll" href="#skill" du-smooth-scroll ng-click="hide()">Skill</a>
+                        </li>
+                        <li class="text-right" du-scrollspy="portfolio">
+                            <a class="page-scroll" href="#portfolio" du-smooth-scroll ng-click="hide()">Portfolio</a>
+                        </li>
+                        <li class="text-right" du-scrollspy="contact">
+                            <a class="page-scroll" href="#contact" du-smooth-scroll ng-click="hide()">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <header>
+            <div class="header-content">
+                <div class="header-content-inner">
+                    <h1 id="homeHeading">Tony Wang</h1>
+                    <hr>
+                    <p>Front End Developer</p>
+                    <a href="#about" class="btn btn-primary btn-xl page-scroll" du-smooth-scroll>Find Out More</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="bg-primary" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">About</h2>
+                        <hr class="light">
+                        <p class="text-faded">
+                            I am passionate and hard working web developer with a keen eye for design. I can adapt quickly to new development environments and learn new languages. I can work autonomously or within a team and enjoy helping other developers grow. I am seeking a role as an Intermediate Front End Developer where I can grow and use my skill set to it's full potential.
+                        </p>
+                        <!-- <a href="#skill" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Skill</h2>
+                        <hr class="primary">
+                    </div>
+                </div>
+            </div>
+            <div class="container skill-wrap">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-html5 text-primary sr-icons"></i>
+                            <h3>HTML5</h3>
+                            <div class="loading">
+                              <div class="loading-1 loading-animate"></div>
+                              <div class="loading-2 loading-animate"></div>
+                              <div class="loading-3 loading-animate"></div>
+                              <div class="loading-4 loading-animate"></div>
+                              <div class="loading-5 loading-animate skill-unavailable"></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-css3 text-primary sr-icons"></i>
+                        <h3>CSS3</h3>
+                        <div class="loading">
+                          <div class="loading-1 loading-animate"></div>
+                          <div class="loading-2 loading-animate"></div>
+                          <div class="loading-3 loading-animate"></div>
+                          <div class="loading-4 loading-animate"></div>
+                          <div class="loading-5 loading-animate skill-unavailable"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 text-center">
+                <div class="service-box">
+                    <img class="sr-icons" src="img/portfolio/thumbnails/jQuery-logo.jpg" alt="">
+                    <h3>jQuery</h3>
+                    <div class="loading">
+                      <div class="loading-1 loading-animate"></div>
+                      <div class="loading-2 loading-animate"></div>
+                      <div class="loading-3 loading-animate"></div>
+                      <div class="loading-4 loading-animate"></div>
+                      <div class="loading-5 loading-animate skill-unavailable"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 text-center">
+            <div class="service-box">
+                <img class="sr-icons" src="img/portfolio/thumbnails/angularjs.jpg" alt="">
+                <h3>AngularJS</h3>
+                <div class="loading">
+                  <div class="loading-1 loading-animate"></div>
+                  <div class="loading-2 loading-animate"></div>
+                  <div class="loading-3 loading-animate"></div>
+                  <div class="loading-4 loading-animate skill-unavailable"></div>
+                  <div class="loading-5 loading-animate skill-unavailable"></div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+
+<section class="no-padding" id="portfolio">
+    <div class="container-fluid">
+        <div class="row no-gutter popup-gallery">
+            <div class="col-lg-4 col-sm-6">
+                <a href="img/portfolio/fullsize/trendsideas/8.gif" class="portfolio-box">
+                    <img src="img/portfolio/thumbnails/trendsideas/1.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Trendsideas
+                            </div>
+                            <div class="project-name">
+                                Business profile Upload Video
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="img/portfolio/fullsize/trendsideas/9.png" class="portfolio-box">
+                    <img src="img/portfolio/thumbnails/trendsideas/9.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Trendsideas
+                            </div>
+                            <div class="project-name">
+                                Professional profile
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="img/portfolio/fullsize/trendsideas/3.png" class="portfolio-box">
+                    <img src="img/portfolio/thumbnails/trendsideas/3.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Trendsideas
+                            </div>
+                            <div class="project-name">
+                                Create Collection Into Profile
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="img/portfolio/fullsize/trendsideas/4.png" class="portfolio-box">
+                    <img src="img/portfolio/thumbnails/trendsideas/4.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Trendsideas
+                            </div>
+                            <div class="project-name">
+                                Collection Image Modify (List Model)
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="img/portfolio/fullsize/trendsideas/7.gif" class="portfolio-box">
+                    <img src="img/portfolio/thumbnails/trendsideas/5.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Trendsideas
+                            </div>
+                            <div class="project-name">
+                                Collection Image Modify (Grid Model)
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="img/portfolio/fullsize/trendsideas/6.png" class="portfolio-box">
+                    <img src="img/portfolio/thumbnails/trendsideas/6.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Backyard
+                            </div>
+                            <div class="project-name">
+                                Create Article
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<aside class="bg-dark">
+    <div class="container text-center">
+        <div class="call-to-action">
+            <h2>More Projects Coming Soon</h2>
+        </div>
+    </div>
+</aside>
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Contact</h2>
+                <hr class="primary">
+            </div>
+            <div class="col-lg-4 col-lg-offset-2 text-center">
+                <i class="fa fa-phone fa-3x sr-contact"></i>
+                <p>+64 22 611 7127</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                <p>sgnswb@hotmail.com</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="footer">
+    <div class="container-fluid">
+        <div class="row footer-wrap">
+            <div class="col-lg-10 col-md-9 col-sm-8 col-xs-7 footer-text">
+                <h4 class="section-heading">Made by Tony Wang © 2017</h4>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-5 footer-icon">
+                <div class="pull-right"> 
+                    <a href="https://www.facebook.com/bo.wang.526" target="_blank"><i class="fa fa-2x fa-facebook sr-contact"></i></a>
+                    <a href="https://www.linkedin.com/in/tony-wang-49b29278/" target="_blank"><i class="fa fa-2x fa-linkedin sr-contact"></i></a>
+                    <a href="https://github.com/sgnswb" target="_blank"><i class="fa fa-2x fa-github sr-contact"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+
+    <!-- Angular Scroll -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-scroll/1.0.2/angular-scroll.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
+    <!-- Custom -->
+    <script src="js/custom.min.js"></script>
+
+</body>
+
+</html>
